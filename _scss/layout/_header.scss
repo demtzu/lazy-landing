@@ -20,6 +20,24 @@
     align-items: center;
 }
 
+.brand {
+  display: inline-flex;
+
+    li {
+        display: inline-flex;
+    }
+}
+
+.logo {
+  position: relative;
+  // top:10px;
+}
+
+.txt {
+  position: relative;
+  // visibility: hidden;
+}
+
 .header-links {
     display: inline-flex;
 
@@ -34,7 +52,7 @@
                 @include font-size(7, desktop, true, true, true);
             }
         }
-        @include font-weight(bold);
+        @include font-weight(regular);
         @include anchor-aspect(header);
         line-height: 16px;
         padding: 8px 24px;
@@ -49,4 +67,43 @@
 			display: none;
 		}
 	}
+
+  .brand {
+    display: inline-flex;
+
+      li {
+          display: inline-flex;
+      }
+  }
+
+  .logo {
+    position: relative;
+    width: 50px;
+    // top:10px;
+  }
+
+  .txt {
+    position: relative;
+    top:-12px;
+  }
+}
+
+@include media( '<medium' ) {
+
+  .brand {
+    display: none;
+
+      li {
+          display: none;
+      }
+  }
+
+  .txt {
+    position: relative;
+    display: none;
+  }
+
+  .site-header-inner {
+      align-items: none;
+  }
 }

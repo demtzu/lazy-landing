@@ -38,13 +38,15 @@
 			text-decoration: underline;
 		}
 	} @else if ($type == 'header') {
-		color: color(typography, 2i);
-		text-transform: uppercase;
+		color: color(typography, 4);
+		// text-transform: uppercase;
 		text-decoration: none;
 
 		&:hover,
 		&:active {
-			color: color(typography, 1i);
+			color: color(typography, 4);
+      background-color: color(bg, 3);
+      border-radius: 5px;
 		}
 	} @else if ($type == 'footer') {
 		color: color(typography, 3);

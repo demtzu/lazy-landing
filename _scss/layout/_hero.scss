@@ -40,7 +40,7 @@
 
 .device-mockup {
 	position: relative;
-  border-radius: 10px;
+  border-radius: 20px;
 	// width: 350px;
 	height: auto;
 	margin: 0 0;
@@ -61,6 +61,84 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 40px;
+}
+
+// status info
+.status {
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 20px 4px 0px;
+}
+
+.status .pulse {
+  float: left;
+  margin: .55rem 1.25rem .55rem 15px
+}
+
+.pulse {
+  margin:100px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #32cd32;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  animation: pulse 1.5s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
+.status .status-text {
+  color: #d9fcff;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 0 0 0;
+  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  // line-height: 22px;
+
+    a {
+      color: #d9fcff;
+       text-decoration: none;
+       }
+       a:hover, a:active {
+         outline: 0;
+         text-decoration: underline;
+       }
 }
 
 @include media( '<medium' ) {
@@ -130,8 +208,13 @@
 	}
 
 	.device-mockup {
+    position: relative;
+    border: 20px solid color(bg, 2);
+    border-color: color(bg, 2);
 		max-width: none;
     left: 180px;
+    border-radius: 30% 0% 0% 50%;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.2);
 	}
 
 	.hero-cta {
@@ -145,4 +228,11 @@
 			}
 		}
 	}
+}
+
+@include media( '<small' ) {
+
+  .status {
+    top: 76px;
+  }
 }
