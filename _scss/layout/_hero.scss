@@ -40,19 +40,20 @@
 
 .device-mockup {
 	position: relative;
-	width: 350px;
+  border-radius: 10px;
+	// width: 350px;
 	height: auto;
-	margin: 0 auto;
-	visibility: hidden;
-	opacity: 0;
+	margin: 0 0;
+	// visibility: hidden;
+	// opacity: 0;
 	transform: translateY(40px);
 	transition: opacity .6s cubic-bezier(0.5, -0.01, 0, 1.005), transform .6s cubic-bezier(0.5, -0.01, 0, 1.005);
 
-	&.has-loaded {
-		visibility: visible;
-		opacity: 1;
-		transform: translateY(0);
-	}
+	// &.has-loaded {
+	// 	visibility: visible;
+	// 	opacity: 1;
+	// 	transform: translateY(0);
+	// }
 }
 
 .hero-cta {
@@ -107,7 +108,7 @@
 
     .hero-copy {
         padding-top: 88px;
-        padding-right: 48px;
+        // padding-right: 48px;
         min-width: 448px;
         max-width: 588px;
     }
@@ -130,6 +131,7 @@
 
 	.device-mockup {
 		max-width: none;
+    left: 180px;
 	}
 
 	.hero-cta {
