@@ -49,8 +49,13 @@
     }
     line-height: 20px;
     padding: 13px 16px;
-	height: 48px;
-    box-shadow: none;
+    height: 48px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 7px;
+    background-color: color(bg,2);
 
     .inline-input {
         display: inline;
@@ -94,7 +99,7 @@
 
             &:not(:last-child) {
                 margin-bottom: 0;
-                margin-right: 8px;
+                margin-right: 0px;
             }
         }
     }
