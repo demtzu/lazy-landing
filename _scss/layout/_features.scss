@@ -26,6 +26,12 @@
     width: 380px;
     max-width: 380px;
     flex-grow: 1;
+    &:hover {
+      background-color: color(bg, 3);
+      cursor: pointer;
+      // opacity: 0.1;
+      border-radius: 10px;
+    }
 }
 
 .feature-inner {
