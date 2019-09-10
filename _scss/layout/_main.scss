@@ -24,6 +24,18 @@ main {
     flex: 1 0 auto;
 }
 
+.cmdk {
+    font-size: 80%;
+    vertical-align: top;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(170, 170, 170, 0.49);
+    // border-image: initial;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+
 .section-inner {
     position: relative; /* To always display inner elements above pseudo decorative stuff */
     padding-top: 48px;
