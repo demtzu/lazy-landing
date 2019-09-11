@@ -102,11 +102,14 @@ body {
   overflow-x: hidden;
 }
 #aspect-content {
-  margin: 50px 0 0;
+  // margin: 50px 0 0;
   // display: flex;
     * {
       box-sizing: border-box;
     }
+    @include media( '<medium' ) {
+    margin: 0px 0 0;
+  }
 }
 .aspect-tab {
   position: relative;
@@ -119,9 +122,14 @@ body {
   opacity: 1;
   transition: box-shadow .2s, opacity .4s;
 
-  &:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .11);
+  @include media( '<medium' ) {
+    margin: 15px 0px;
   }
+
+  &:hover {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .05);
+  }
+
 }
 .aspect-input {
   display: none;
@@ -457,5 +465,12 @@ body {
   // flex-wrap: wrap;
   justify-content: space-evenly;
 
+  @include media( '<medium' ) {
+    flex-wrap: wrap;
+  }
 }
+
+@include media( '<medium' ) {
+    margin: 15px 13px;
+  }
 

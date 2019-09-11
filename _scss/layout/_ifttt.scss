@@ -1,0 +1,106 @@
+.ifttt {
+
+    .section-paragraph {
+        margin-bottom: 32px;
+    }
+
+}
+
+.ifttt-form {
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+.ifttt-flex {
+    display: flex;
+    // justify-content: space-between;
+}
+
+.ifttt-header {
+    padding-top: 88px;
+    min-width: 448px;
+    max-width: 588px;
+    padding-left: 120px;
+}
+
+.ifttt-image {
+      max-width: 500px;
+}
+
+// .ifttt-btn {
+//   background: linear-gradient(108.47deg, #F0A341 6.53%, #E052A0 100%);
+//   border-radius: 50px;
+//   padding: 10px 10px;
+//   background-color: color(bg, 3);
+//   color: color(typography, 1) !important;
+//   box-shadow: 0 4px 16px rgba(color(primary, 1), .25);
+// }
+
+.ifttt-btn {
+    display: inline-flex;
+    @include font-size(8, mobile, true, false, true);
+    @if ( get-font-size(8, desktop) != get-font-size(8, mobile) ) {
+        @include media( '>medium' ) {
+            @include font-size(8, desktop, true, false, true);
+        }
+    }
+    @include font-weight(bold);
+    // line-height: 16px;
+    text-decoration: none !important;
+  // text-transform: uppercase;
+    cursor: pointer;
+    justify-content: center;
+    padding: 16px 32px;
+     height: 48px;
+     width: 50%;
+    text-align: center;
+    background: linear-gradient(108.47deg, #F0A341 6.53%, #E052A0 100%);
+    border-radius: 50px;
+    padding: 10px 10px;
+    background-color: color(bg, 3);
+    color: color(typography, 1) !important;
+    box-shadow: 0 4px 16px rgba(color(primary, 1), .25);
+
+  &:hover {
+    background: lighten(color(primary, 2), 1%);
+    box-shadow: 0 4px 16px rgba(color(primary, 1), .35);
+  }
+
+    &:active {
+        outline: 0;
+    }
+
+    &::before {
+        border-radius: 2px;
+    }
+}
+
+@include media( '>medium' ) {
+
+    .ifttt {
+
+        .section-paragraph {
+            margin-bottom: 40px;
+            padding-left: 72px;
+            // padding-right: 72px;
+        }
+    }
+
+}
+
+@include media( '<medium' ) {
+
+    .ifttt-flex {
+      flex-wrap: wrap;
+      }
+
+      .ifttt-header {
+        padding-top: 50px;
+        min-width: 0px;
+        padding-left: 0px;
+      }
+
+      .ifttt-btn {
+        margin-bottom: 50px;
+      }
+}
