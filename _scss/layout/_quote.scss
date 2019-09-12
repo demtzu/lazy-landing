@@ -1,0 +1,37 @@
+.q {
+  color: #ccc;
+  font-size: 6rem;
+  font-family: Georgia, serif;
+  font-style: italic;
+  letter-spacing: .1rem
+}
+
+.quote-text {
+  font-family: Georgia, serif;
+    font-style: italic;
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+  line-height: 63px;
+}
+
+.quote-author {
+  display: block;
+  text-align: right;
+  // font-family: Verdana, Arial, sans-serif;
+  margin-top: 1rem;
+  font-size: .9rem;
+  color: color(typography, 2);
+  font-style: normal;
+}
+
+.quote {
+  margin-top: 120px;
+}
+
+.quote-flex {
+  max-width: 900px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}

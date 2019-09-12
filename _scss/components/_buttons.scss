@@ -137,4 +137,8 @@
     display: block;
     background: linear-gradient(266.77deg, #F0A341 30.84%, #E052A0 94.28%);
     border-radius: 5px;
+    &.middle {
+      margin-left: auto;
+      margin-right: auto;
     }
+}
