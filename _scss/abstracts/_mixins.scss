@@ -29,13 +29,15 @@
 // Anchor aspect
 @mixin anchor-aspect($type: 'main') {
 	@if ($type == 'main') { // Base
-		color: color(primary, 1);
+		color: color(typography, 4);
 		text-decoration: none;
 
 		&:hover,
 		&:active {
 			outline: 0;
-			text-decoration: underline;
+      // background-color: color(bg, 3);
+      // border-radius: 5px;
+			text-decoration: none;
 		}
 	} @else if ($type == 'header') {
 		color: color(typography, 4);
