@@ -30,6 +30,9 @@
     flex-wrap: wrap;
     padding-top: 48px;
     padding-bottom: 48px;
+    @include media ( '<medium') {
+      justify-content: center;
+    }
 }
 
 .footer-brand,
@@ -87,6 +90,7 @@
     .footer-social-links,
     .footer-copyright {
         flex: 50%;
+
     }
 
     .footer-brand,
@@ -103,4 +107,14 @@
         order: 1;
         margin-bottom: 0;
     }
+}
+
+.brand.footer-brand {
+  display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+.brand-text {
+      margin-top: 30px;
 }
