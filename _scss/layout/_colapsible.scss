@@ -245,6 +245,18 @@ body {
   margin-left: 10px;
   font-size: 90%;
 }
+
+.label-productivity {
+  background: linear-gradient(143.01deg, #8D33F6 2.58%, #61DEC6 98.59%);
+  border-radius: 15px;
+  color: white;
+  padding: 0px 27px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-size: 90%;
+}
+
 .aspect-stat {
   width: 40%;
   text-align: right;
@@ -549,6 +561,9 @@ body {
       background-color: color(bg, 3);
       border-radius: 5px;
       text-decoration: none;
+      transition: background 120ms ease-in 0s;
+        // border-radius: 5px;
+        user-select: none;
     }
 }
 

@@ -35,8 +35,9 @@
 		&:hover,
 		&:active {
 			outline: 0;
-      // background-color: color(bg, 3);
-      // border-radius: 5px;
+      transition: background 120ms ease-in 0s;
+        border-radius: 5px;
+        user-select: none;
 			text-decoration: none;
 		}
 	} @else if ($type == 'header') {
@@ -49,6 +50,9 @@
 			color: color(typography, 4);
       background-color: color(bg, 3);
       border-radius: 5px;
+      transition: background 120ms ease-in 0s;
+      border-radius: 5px;
+      user-select: none;
 		}
 	} @else if ($type == 'footer') {
 		color: color(typography, 3);

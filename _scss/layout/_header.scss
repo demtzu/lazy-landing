@@ -56,6 +56,9 @@
         @include anchor-aspect(header);
         line-height: 16px;
         padding: 8px 24px;
+        transition: background 120ms ease-in 0s;
+        border-radius: 5px;
+        user-select: none;
     }
 }
 
