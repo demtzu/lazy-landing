@@ -94,47 +94,29 @@ title: Lazy
                 </div>
             </section>
 
-            <section class="media section" id="how">
-                    <div class="container-sm">
-                        <div class="media-inner section-inner">
-                            <div class="media-header text-center">
-                                <h2 class="section-title mt-0">How it works?</h2>
-                                <p class="section-paragraph mb-0">Hands on the keyboard… You can move your mouse away! Lazy is designed to control any app and connected device at the speed of light with an easy keyboard shortcut.</p>
-                            </div>
-                <div class="media-canvas">
-                  <svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
-                      <defs>
-                          <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="media-canvas">
-                              <stop stop-color="#06101F" offset="0%"/>
-                              <stop stop-color="#1D304B" offset="100%"/>
-                          </linearGradient>
-                      </defs>
-                      <rect width="800" height="450" rx="8" fill="url(#media-canvas)" fill-rule="evenodd"/>
-                  </svg>
-                  <div class="media-control">
-                    <svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                            <linearGradient x1="87.565%" y1="15.873%" x2="17.086%" y2="80.538%" id="media-control">
-                                <stop stop-color="#FFF" stop-opacity=".64" offset="0%"/>
-                                <stop stop-color="#FFF" offset="100%"/>
-                            </linearGradient>
-                        <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="media-shadow">
-                                                <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"></feOffset>
-                                                <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"></feGaussianBlur>
-                                                <feColorMatrix values="0 0 0 0 0.024 0 0 0 0 0.064 0 0 0 0 0.12 0 0 0 0.24 0" in="shadowBlurOuter"></feColorMatrix>
-                                            </filter>
-                        </defs>
-                        <g fill="none" fill-rule="evenodd">
-                            <circle fill="#FFF" cx="48" cy="48" r="48" style="mix-blend-mode:multiply;filter:url(#media-shadow)"/>
-                        <circle fill="url(#media-control)" cx="48" cy="48" r="48"/>
-                            <path d="M44.6 39.2a1.001 1.001 0 0 0-1.6.8v18a1.001 1.001 0 0 0 1.6.8l12-9a.998.998 0 0 0 0-1.6l-12-9z" fill="#1D304B"/>
-                        </g>
-                    </svg>
-                  </div>
-                </div>
+            <section class="media section">
+                <div class="container">
+                    <div class="media-inner section-inner">
+                        <div class="media-header text-center">
+                            <h2 class="section-title mt-0">Join the speed revolution.</h2>
+                            <p class="section-paragraph mb-0">Meet the Lazy Command line by hitting <span class="cmdk">⌥ + ⌘ + K</span> and control your environment blazingly fast!</p>
+                        </div>
+                        <div class="media-canvas2">
+                          <video class="cmdk-demo" src="/assets/images/cmdk-demo.mp4" width="100%" muted="" autoplay="" loop=""></video>
                         </div>
                     </div>
-                </section>
+                    <!-- <div class="footer-form newsletter-form field field-grouped">
+                        <div class="control control-expanded">
+                          <form action="https://api.producthunt.com/widgets/upcoming/v1/upcoming/lazy/forms" method="post" id="ph-email-form" name="ph-email-form" target="_blank">
+                          <input class="input" type="email" name="email" placeholder="Join the speed&hellip;">
+                        </div>
+                        <div class="control">
+                          <input type="submit" value="Early access" class="button button-primary button-block button-shadow" name="subscribe" id="ph-subscribe-button" />
+                        </div>
+                          </form>
+                    </div> -->
+                </div>
+            </section>
 
             <section class="features section" id="why">
                 <div class="container">
@@ -185,29 +167,47 @@ title: Lazy
                 </div>
             </section>
 
-            <section class="media section">
-                <div class="container">
-                    <div class="media-inner section-inner">
-                        <div class="media-header text-center">
-                            <h2 class="section-title mt-0">Join the speed revolution.</h2>
-                            <p class="section-paragraph mb-0">Meet the Lazy Command line by hitting <span class="cmdk">⌥ + ⌘ + K</span> and control your environment blazingly fast!</p>
-                        </div>
-            						<div class="media-canvas2">
-            							<video class="cmdk-demo" src="/assets/images/cmdk-demo.mp4" width="100%" muted="" autoplay="" loop=""></video>
-            						</div>
-                    </div>
-                    <!-- <div class="footer-form newsletter-form field field-grouped">
-                        <div class="control control-expanded">
-                          <form action="https://api.producthunt.com/widgets/upcoming/v1/upcoming/lazy/forms" method="post" id="ph-email-form" name="ph-email-form" target="_blank">
-                          <input class="input" type="email" name="email" placeholder="Join the speed&hellip;">
-                        </div>
-                        <div class="control">
-                          <input type="submit" value="Early access" class="button button-primary button-block button-shadow" name="subscribe" id="ph-subscribe-button" />
-                        </div>
-                          </form>
-                    </div> -->
+            <section class="media section" id="how">
+                    <div class="container-sm">
+                        <div class="media-inner section-inner">
+                            <div class="media-header text-center">
+                                <h2 class="section-title mt-0">How it works?</h2>
+                                <p class="section-paragraph mb-0">Hands on the keyboard… You can move your mouse away! Lazy is designed to control any app and connected device at the speed of light with an easy keyboard shortcut.</p>
+                            </div>
+                <div class="media-canvas">
+                  <svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+                      <defs>
+                          <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="media-canvas">
+                              <stop stop-color="#06101F" offset="0%"/>
+                              <stop stop-color="#1D304B" offset="100%"/>
+                          </linearGradient>
+                      </defs>
+                      <rect width="800" height="450" rx="8" fill="url(#media-canvas)" fill-rule="evenodd"/>
+                  </svg>
+                  <div class="media-control">
+                    <svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient x1="87.565%" y1="15.873%" x2="17.086%" y2="80.538%" id="media-control">
+                                <stop stop-color="#FFF" stop-opacity=".64" offset="0%"/>
+                                <stop stop-color="#FFF" offset="100%"/>
+                            </linearGradient>
+                        <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="media-shadow">
+                                                <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"></feOffset>
+                                                <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"></feGaussianBlur>
+                                                <feColorMatrix values="0 0 0 0 0.024 0 0 0 0 0.064 0 0 0 0 0.12 0 0 0 0.24 0" in="shadowBlurOuter"></feColorMatrix>
+                                            </filter>
+                        </defs>
+                        <g fill="none" fill-rule="evenodd">
+                            <circle fill="#FFF" cx="48" cy="48" r="48" style="mix-blend-mode:multiply;filter:url(#media-shadow)"/>
+                        <circle fill="url(#media-control)" cx="48" cy="48" r="48"/>
+                            <path d="M44.6 39.2a1.001 1.001 0 0 0-1.6.8v18a1.001 1.001 0 0 0 1.6.8l12-9a.998.998 0 0 0 0-1.6l-12-9z" fill="#1D304B"/>
+                        </g>
+                    </svg>
+                  </div>
                 </div>
-            </section>
+                        </div>
+                    </div>
+                </section>
 
                         <section class="colapsibles section" id="usecase">
                             <div class="container">
