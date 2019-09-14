@@ -27,15 +27,6 @@
       max-width: 500px;
 }
 
-// .ifttt-btn {
-//   background: linear-gradient(108.47deg, #F0A341 6.53%, #E052A0 100%);
-//   border-radius: 50px;
-//   padding: 10px 10px;
-//   background-color: color(bg, 3);
-//   color: color(typography, 1) !important;
-//   box-shadow: 0 4px 16px rgba(color(primary, 1), .25);
-// }
-
 .ifttt-btn {
     display: inline-flex;
     @include font-size(8, mobile, true, false, true);
@@ -57,12 +48,12 @@
     background: linear-gradient(108.47deg, #F0A341 6.53%, #E052A0 100%);
     border-radius: 50px;
     padding: 10px 10px;
-    // background-color: color(bg, 3);
     color: color(typography, 1) !important;
     box-shadow: 0 4px 16px rgba(color(primary, 1), .25);
 
   &:hover {
-    background: lighten(color(primary, 2), 1%);
+    // background: lighten(color(primary, 2), 1%);
+    background-color: color(primary, 2);
     box-shadow: 0 4px 16px rgba(color(primary, 1), .35);
     border-radius: 50px;
     transition: background 120ms ease-in 0s;
@@ -71,12 +62,14 @@
 
     &:active {
         outline: 0;
-        background: lighten(color(primary, 2), 1%);
+        background-color: color(primary, 2);
+        // background: lighten(color(primary, 2), 1%);
     }
 
     &::before {
         border-radius: 2px;
-        background: lighten(color(primary, 2), 1%);
+        background-color: color(primary, 2);
+        // background: lighten(color(primary, 2), 1%);
     }
 }
 
