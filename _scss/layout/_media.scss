@@ -43,13 +43,13 @@
   &::before {
     content: '';
     position: absolute;
-    width: 320px;
-    height: 230px;
-    bottom: -76px;
-    left: calc(50% - 160px);
+    width: 500px;
+    height: 438px;
+    bottom: -136px;
+    right: -94px;
     background-image: url(/assets/images/abstract.svg);
     background-repeat: no-repeat;
-    background-size: 320px 230px;
+    background-size: 600px 450px;
   }
 }
 
