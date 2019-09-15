@@ -28,7 +28,7 @@
     flex-grow: 1;
     &:hover {
       background-color: color(bg, 3);
-      cursor: pointer;
+      cursor: default;
       // opacity: 0.1;
       border-radius: 10px;
     }
