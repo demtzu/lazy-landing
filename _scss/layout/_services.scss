@@ -1,0 +1,62 @@
+// contenu first section
+.section1 {
+  position:relative;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// contenu text section
+.section1-content {
+  position:relative;
+  color: #2C4468;
+  // display: flex;
+  // align-items: center;
+  // justify-content: flex-end;
+  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  h1 {
+    font-weight: 400;
+  }
+  p {
+    margin-top: 1.5em;
+    color: #546583;
+  }
+  p.text-section1 {
+    max-width: 500px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+  }
+  a {
+    // color: rgba(0,0,0,0.4);
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration:none;
+  }
+
+  // skills ul list
+.skills-list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 30px;
+    gap: 0 30px;
+    list-style: none;
+}
+
+.skills-list li:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(/images/checkmark.svg);
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    // vertical-align: 1px;
+  }
+}
