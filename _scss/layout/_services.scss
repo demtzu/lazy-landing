@@ -2,7 +2,7 @@
 .section1 {
   position:relative;
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,3 +60,208 @@
     // vertical-align: 1px;
   }
 }
+
+
+// contenu colonne gauche
+.skills {
+  position:relative;
+}
+
+.img-circle {
+  // position:absolute;
+
+  // width: 160px;
+  // height: 160px;
+  // box-shadow: 27.1px 62.5px 125px -25px rgba(50,50,93,.5), 16.2px 37.5px 75px -37.5px rgba(0,0,0,.6);
+}
+
+.skill-icons {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    vertical-align: top;
+}
+
+.skill-icon-container {
+    align-items: center;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-name: floating;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    background-color: color(bg,3);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    box-shadow: 0 10px 40px 0 rgba(23,28,33,.3), 0 31px 13px 0 rgba(23,28,33,.07);
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    transition: margin 1s cubic-bezier(.2,.6,.3,1),opacity 2s ease;
+}
+
+.skill-icon-container {
+  animation-duration: 4s;
+    height: 100px;
+    margin-left: 76px;
+    margin-top: -25px;
+    position: absolute;
+    width: 100px;
+}
+
+@keyframes floating {
+  0% {
+     transform: translateY(8px) rotate3d(0,0,1,3deg);
+  }
+
+100% {
+    transform: translateY(-8px) rotate3d(0,0,1,0deg);
+  }
+}
+
+.middleman {
+    animation-delay: -3.4s;
+    animation-duration: 4s;
+    height: 80px;
+    width: 80px;
+    margin-left: 15px;
+    margin-top: 110px;
+    position: absolute;
+    transition-delay: .3s;
+}
+
+.git {
+    animation-delay: -2.4s;
+    animation-duration: 4s;
+    background-size: 100px;
+    height: 60px;
+    width: 60px;
+    margin-left: 423px;
+    margin-top: 0px;
+    position: absolute;
+    transition-delay: .4s;
+}
+
+.skill-icon-container .skill-icon.image {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.skill-icon-container.github {
+    animation-delay: -.3s;
+    animation-duration: 4s;
+    height: 90px;
+    width: 90px;
+    margin-left: 302px;
+    margin-top: 100px;
+    position: absolute;
+    transition-delay: .5s;
+}
+
+.skill-icon-container.materialize {
+    animation-delay: -3.9s;
+    animation-duration: 4s;
+    height: 60px;
+    width: 60px;
+    margin-left: 210px;
+    margin-top: 190px;
+    position: absolute;
+    transition-delay: .8s;
+}
+
+.skill-icon-container.postgresql {
+    animation-delay: -3.9s;
+    animation-duration: 4s;
+    height: 60px;
+    width: 60px;
+    margin-left: 240px;
+    margin-top: -130px;
+    position: absolute;
+    transition-delay: .8s;
+}
+
+.skill-icon-container.javascript {
+    animation-delay: -.9s;
+    animation-duration: 4s;
+    height: 70px;
+    width: 70px;
+    margin-left: 350px;
+    margin-top: 230px;
+    position: absolute;
+    transition-delay: .7s;
+}
+
+.skill-icon-container.css {
+    animation-delay: -2.9s;
+    animation-duration: 4s;
+    height: 80px;
+    width: 80px;
+    margin-left: 95px;
+    margin-top: -150px;
+    position: absolute;
+    transition-delay: .6s;
+}
+
+.skill-icon-container.profil {
+    animation-delay: -2.2s;
+    animation-duration: 4s;
+    height: 160px;
+    width: 160px;
+    margin-left: 120px;
+    // margin-top: 139px;
+    position: absolute;
+    transition-delay: .2s;
+}
+
+.skill-icon-container.ruby {
+    animation-duration: 4s;
+    height: 90px;
+    width: 90px;
+    margin-left: -50px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+
+.skill-icon-container.rails {
+    animation-delay: -1.8s;
+    animation-duration: 4s;
+    height: 80px;
+    width: 80px;
+    margin-left: 356px;
+    margin-top: -120px;
+    position: absolute;
+    transition-delay: .1s;
+}
+
+.skill-icon-container.html {
+    animation-delay: -1.8s;
+    animation-duration: 4s;
+    height: 60px;
+    width: 60px;
+    margin-left: -20px;
+    margin-top: 241px;
+    position: absolute;
+    transition-delay: .1s;
+}
+
+.skill-icon-container.bootstrap {
+    animation-delay: -2.9s;
+    animation-duration: 4s;
+    height: 80px;
+    width: 80px;
+    margin-left: 95px;
+    margin-top: 245px;
+    position: absolute;
+    transition-delay: .6s;
+}
+
+
+
+.skill-icon-link:hover .skill-icon-container {
+  background: color(bg,2);
+}
+
