@@ -119,24 +119,24 @@
   }
 }
 
-.middleman {
+.home-connect {
     animation-delay: -3.4s;
     animation-duration: 4s;
     height: 80px;
     width: 80px;
-    margin-left: 15px;
+    margin-left: 395px;
     margin-top: 110px;
     position: absolute;
     transition-delay: .3s;
 }
 
-.git {
+.honeywell {
     animation-delay: -2.4s;
     animation-duration: 4s;
     background-size: 100px;
     height: 60px;
     width: 60px;
-    margin-left: 423px;
+    margin-left: 803px;
     margin-top: 0px;
     position: absolute;
     transition-delay: .4s;
@@ -150,118 +150,285 @@
     background-repeat: no-repeat;
 }
 
-.skill-icon-container.github {
+.philipshue {
     animation-delay: -.3s;
     animation-duration: 4s;
     height: 90px;
     width: 90px;
-    margin-left: 302px;
+    margin-left: 682px;
     margin-top: 100px;
     position: absolute;
     transition-delay: .5s;
 }
 
-.skill-icon-container.materialize {
+.materialize {
     animation-delay: -3.9s;
     animation-duration: 4s;
     height: 60px;
     width: 60px;
-    margin-left: 210px;
+    margin-left: 590px;
     margin-top: 190px;
     position: absolute;
     transition-delay: .8s;
 }
 
-.skill-icon-container.postgresql {
+.ihome {
     animation-delay: -3.9s;
     animation-duration: 4s;
     height: 60px;
     width: 60px;
-    margin-left: 240px;
+    margin-left: 620px;
     margin-top: -130px;
     position: absolute;
     transition-delay: .8s;
 }
 
-.skill-icon-container.javascript {
+.irobot {
     animation-delay: -.9s;
     animation-duration: 4s;
-    height: 70px;
-    width: 70px;
-    margin-left: 350px;
+    height: 80px;
+    width: 80px;
+    margin-left: 730px;
     margin-top: 230px;
     position: absolute;
     transition-delay: .7s;
 }
 
-.skill-icon-container.css {
+.nest {
     animation-delay: -2.9s;
     animation-duration: 4s;
     height: 80px;
     width: 80px;
-    margin-left: 95px;
+    margin-left: 475px;
     margin-top: -150px;
     position: absolute;
     transition-delay: .6s;
 }
 
-.skill-icon-container.profil {
-    animation-delay: -2.2s;
-    animation-duration: 4s;
+.ifttt-logo {
+    animation-delay: -1.9s;
+    animation-duration: 2s;
     height: 160px;
     width: 160px;
-    margin-left: 120px;
+    margin-left: 500px;
     // margin-top: 139px;
     position: absolute;
     transition-delay: .2s;
 }
 
-.skill-icon-container.ruby {
+.sonos {
     animation-duration: 4s;
     height: 90px;
     width: 90px;
-    margin-left: -50px;
+    margin-left: 330px;
     margin-top: -20px;
     position: absolute;
 }
 
 
-.skill-icon-container.rails {
+.kasa {
     animation-delay: -1.8s;
     animation-duration: 4s;
     height: 80px;
     width: 80px;
-    margin-left: 356px;
+    margin-left: 736px;
     margin-top: -120px;
     position: absolute;
     transition-delay: .1s;
 }
 
-.skill-icon-container.html {
+.microsoft-flow {
     animation-delay: -1.8s;
     animation-duration: 4s;
     height: 60px;
     width: 60px;
-    margin-left: -20px;
+    margin-left: 360px;
     margin-top: 241px;
     position: absolute;
     transition-delay: .1s;
 }
 
-.skill-icon-container.bootstrap {
+.myq {
     animation-delay: -2.9s;
     animation-duration: 4s;
     height: 80px;
     width: 80px;
-    margin-left: 95px;
+    margin-left: 475px;
     margin-top: 245px;
     position: absolute;
     transition-delay: .6s;
 }
 
+.netatmo {
+    animation-delay: -2.9s;
+    animation-duration: 4s;
+    height: 70px;
+    width: 70px;
+    margin-left: 175px;
+    margin-top: 9px;
+    position: absolute;
+    transition-delay: .6s;
+}
+
+.nuki {
+    animation-delay: -2.9s;
+    animation-duration: 4s;
+    height: 80px;
+    width: 80px;
+    margin-left: 850px;
+    margin-top: 123px;
+    position: absolute;
+    transition-delay: .6s;
+}
+
+.ring {
+    // animation-delay: -2.9s;
+    animation-duration: 4s;
+    height: 80px;
+    width: 80px;
+    margin-left: 261px;
+    margin-top: 166px;
+    position: absolute;
+    transition-delay: .6s;
+}
+
+.lifx {
+  animation-duration: 4s;
+  animation-delay: -1.2s;
+  transition-delay: .1s;
+    height: 100px;
+    margin-left: 1031px;
+    margin-top: 200px;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+
+.zapier {
+  animation-duration: 4s;
+  animation-delay: -2.2s;
+  transition-delay: .4s;
+    height: 100px;
+    margin-left: 212px;
+    margin-top: 102px;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+
+.slack {
+  animation-duration: 4s;
+    height: 100px;
+    margin-left: 101px;
+    margin-top: -113px;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+}
+
+.smartlife {
+  animation-duration: 3s;
+    height: 100px;
+    margin-left: 39px;
+    margin-top: 81px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+}
+
+.smartthings-samsung {
+  animation-duration: 5s;
+  animation-delay: -1.2s;
+  transition-delay: .1s;
+    height: 100px;
+    margin-left: 0px;
+    margin-top: -132px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.spotify {
+  animation-duration: 4s;
+    height: 100px;
+    margin-left: 1005px;
+    margin-top: -150px;
+    position: absolute;
+    width: 95px;
+    height: 95px;
+}
+
+.tado {
+  animation-duration: 4s;
+    height: 100px;
+    margin-left: 1000px;
+    margin-top: 100px;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.telldus {
+  animation-duration: 3.5s;
+  animation-delay: -2.5s;
+  transition-delay: .3s;
+    height: 100px;
+    margin-left: 589px;
+    margin-top: 165px;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+}
+
+.tuya {
+  animation-duration: 2.9s;
+    height: 100px;
+    margin-left: 912px;
+    margin-top: 250px;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+
+.wemo {
+  animation-duration: 2s;
+  animation-delay: -2.9s;
+  transition-delay: .2s;
+    height: 100px;
+    margin-left: 290px;
+    margin-top: -143px;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+}
+
+.wink {
+  animation-duration: 3s;
+  animation-delay: -2s;
+  transition-delay: .5s;
+    height: 100px;
+    margin-left: 142px;
+    margin-top: 250px;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+}
+
+.ecobee {
+  animation-duration: 3s;
+  animation-delay: -2s;
+  transition-delay: .5s;
+    height: 100px;
+    margin-left: 930px;
+    margin-top: -25px;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+}
 
 
-.skill-icon-link:hover .skill-icon-container {
+
+.skill-icon-container:hover {
   background: color(bg,2);
 }
 
