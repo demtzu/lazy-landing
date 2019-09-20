@@ -1,0 +1,234 @@
+---
+layout: default
+title: How to Create IFFFT Webhook for Lazy
+image: og-image.jpg
+---
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                              <ul>
+                                <li class="logo">
+                                  <a href="/"><img src="/assets/images/lazy-logo-simple.svg" alt="Lazy Logo" width="50px" height="50px"></a>
+                                </li>
+                                <li class="txt">
+                                  <a href="/"><img src="/assets/images/lazy-txt.svg" alt="Lazy Texte" width="50px"></a>
+                                </li>
+                              </ul>
+                        </h1>
+                    </div>
+                    <ul class="header-links list-reset m-0">
+                        <li>
+                            <a href="/#why">Why Lazy?</a>
+                        </li>
+                        <li>
+                            <a href="/#how">How it works</a>
+                        </li>
+                        <li>
+                            <a href="/#usecase">Use cases</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+			<section class="tutorial section">
+                <div class="container">
+
+                  <!-- STEP 1 -->
+                    <div class="tutorial section-inner">
+                      <div class="flex-tutorial">
+                        <div class="flex-left-tutorial">
+                          <div class="tutorial-header">
+                              <h2 class="section-title mt-0">Step 1: "If this"</h2>
+                              <p class="section-paragraph" style="padding-left: 0px;">
+                                - Sign up for IFTTT if you haven't already.
+                              <br>- Create a new applet <a href="https://ifttt.com/create" target="_blank" style="text-decoration:underline;">here</a>
+                              <br>- Press on "+This" to pick the Trigger Service
+                              <br>- Type in "Webhooks" in the search box.
+                              <br>- Press on “receive a web request".
+                              <br>- Complete the trigger field by assigning a name for the “Event” (a connected device), Enter something that describes your action. Let's use <span class="cmdk">desk_light</span> for our example.
+                              <br>- Click "Create Trigger".
+                              </p>
+                          </div>
+                        </div>
+                        <div class="flex-right-tutorial">
+                          <video style="box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5)!important; border-radius: 3px!important;" src="/assets/images/tutorial/step1.mp4"
+                                    width="100%" muted="" autoplay="" controls loop="" playsinline></video>
+                        </div>
+                      </div>
+                    </div>
+
+                  <!-- STEP 2 -->
+                    <div class="tutorial section-inner has-top-divider">
+                      <div class="flex-tutorial">
+                        <div class="flex-left-tutorial">
+                          <div class="tutorial-header">
+                              <h2 class="section-title mt-0">Step 2: "Then that"</h2>
+                              <p class="section-paragraph" style="padding-left: 0px;">
+                                Now we are going to choose action to our service.
+                                <br>- Click on "+That"
+                                <br>- Since our lamp is connected to our TP-Link smart plug, we want ”TP-Link Kasa” to be our service.
+                                <br>- Since our task is to turn on and off our lights, we click on “Toggle”, to be our choice of action for our service.
+                                <br>- We complete the action field by linking our “kasa” device, in this case, my lamp, and by pressing on the “Create action”.
+                                <br>You have now completed the steps to create an IFFFT webhook command for your Lazy App.
+                              </p>
+                          </div>
+                        </div>
+                        <div class="flex-right-tutorial is-revealing">
+                          <video style="box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5)!important; border-radius: 3px!important;" src="/assets/images/tutorial/step2.mp4"
+                                    width="100%" muted="" autoplay="" controls loop="" playsinline></video>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- STEP 3 -->
+                      <div class="tutorial section-inner has-top-divider">
+                      <div class="flex-tutorial">
+                        <div class="flex-left-tutorial">
+                          <div class="tutorial-header">
+                              <h2 class="section-title mt-0">Step 3 : Grab your Webhook URL</h2>
+                              <p class="section-paragraph" style="padding-left: 0px;">
+                                - Go on <a href="https://ifttt.com/maker_webhooks" target="_blank" style="text-decoration:underline;">this page</a>
+                                <br>- Click on “documentation” on the top righthand corner.
+                                <br>- This will take you to the page to get the URL for your webhook.
+                                <br>- Type in your “event name” in the box. I typed in <span class="cmdk">desk_light</span> because that was the name of the event I created.
+                                <br>- Select the entire URL, copy it to your clipboard.
+                              </p>
+                          </div>
+                        </div>
+                        <div class="flex-right-tutorial is-revealing">
+                          <video style="box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5)!important; border-radius: 3px!important;" src="/assets/images/tutorial/step3.mp4"
+                                    width="100%" muted="" autoplay="" controls loop="" playsinline></video>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- STEP 4 -->
+                      <div class="tutorial section-inner has-top-divider">
+                      <div class="flex-tutorial">
+                        <div class="flex-left-tutorial">
+                          <div class="tutorial-header">
+                              <h2 class="section-title mt-0">Step 4 : Add the webhook to Lazy</h2>
+                              <p class="section-paragraph" style="padding-left: 0px;">
+                              Now that you have your webhook URL, you can add it to Lazy in order to create your keyboard shortcut to use for future tasks.
+                              <br>- Open the Lazy settings.
+                              <br>- Click on the "+" button to add your new action.
+                              <br>- Assign an emoji and the name you want for this action.
+                              <br>- Paste the webhook URL in the URL box section.
+                              <br>- Assign a keyboard shortcut to the action.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="flex-right-tutorial is-revealing">
+                          <video style="box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5)!important; border-radius: 3px!important;" src="/assets/images/tutorial/step4.mp4"
+                                    width="100%" muted="" autoplay="" controls loop="" playsinline></video>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- STEP 5 -->
+                      <div class="tutorial section-inner has-top-divider">
+                      <div class="flex-tutorial">
+                        <div class="flex-left-tutorial">
+                          <div class="tutorial-header">
+                              <h2 class="section-title mt-0">Step 5 : Use your Lazy Shortcut</h2>
+                              <p class="section-paragraph" style="padding-left: 0px;">
+                              You are now ready to use your new Lazy keyboard shortcut generated by an IFFFT webhook.
+                              <br>- Simply hit your shortcut on your keyboard. And voila! You’ve just fired your new Lazy command to your connected device
+                              <br>- Press <span class="cmdk">⌥ + ⌘ + K</span> if you forget a shortcut to launch an action by just typing it's name and press enter.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="flex-right-tutorial is-revealing">
+                          <video style="box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5)!important; border-radius: 3px!important;" src="/assets/images/tutorial/step5.mp4"
+                                    width="100%" muted="" autoplay="" controls loop="" playsinline></video>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- STEP 6 -->
+                      <div class="tutorial section-inner has-top-divider">
+                      <div class="flex-tutorial">
+                        <div class="flex-left-tutorial">
+                          <div class="tutorial-header">
+                              <h2 class="section-title mt-0">Going Further...</h2>
+                              <p class="section-paragraph" style="padding-left: 0px;">Use the same webhook URL for other actions, instead of <span class="cmdk">desk_light</span>, just change the event name depending on the new applets that you create</p>
+                          </div>
+                        </div>
+                        <div class="flex-right-tutorial is-revealing">
+                          <img src="assets/images/search-bar.gif" alt="lazy screenshot search bar">
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                </div>
+            </section>
+
+          </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner has-top-divider">
+                    <div class="brand footer-brand">
+                        <img src="/assets/images/lazy-logo.svg" alt="Lazy Logo" width="50px" height="50px" style="cursor: crosshair;">
+                        <br>
+                        <p class="brand-text">Lazy is designed and developed by <a href="https://twitter.com/demtzu" target="_blank" style="color: #47A1F9;">Ahmed Men</a> in Brussels, Belgium.</p>
+                    </div>
+
+                    <ul class="footer-links list-reset">
+                        <li class="link-footer">
+                            <!-- <a href="mailto:ahmed@lazy-app.com?subject=Hey from lazy-app.com">Contact</a> -->
+                            <a style="display:block" href="mailto:ahmed@lazy-app.com?subject=Hey from lazy-app.com">
+                              <div class="link-footer">
+                                <div class="link-footer-text"><p style="text-decoration: none; margin-bottom: 0px;">&nbsp;&nbsp;Contact&nbsp;&nbsp;</p></div>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <!-- <a href="https://www.notion.so/lazyapp/Lazy-s-Public-Roadmap-2d1d6e546e954a7bafbc0114fe15beb6" target="_blank">Public Roadmap</a> -->
+                            <a style="display:block" href="https://www.notion.so/lazyapp/Lazy-s-Public-Roadmap-2d1d6e546e954a7bafbc0114fe15beb6" target="_blank">
+                              <div class="link-footer">
+                                <div class="link-footer-text"><p style="text-decoration: none; margin-bottom: 0px;">&nbsp;&nbsp;Public Roadmap&nbsp;&nbsp;</p></div>
+                              </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a style="display:block" href="mailto:ahmed@lazy-app.com?subject=Feature Request">
+                              <div class="link-footer">
+                                <div class="link-footer-text"><p style="text-decoration: none; margin-bottom: 0px;">&nbsp;&nbsp;Feature request&nbsp;&nbsp;</p></div>
+                                <div class="link-footer-explore"><img src="assets/images/chevron-right.svg" alt="explore"></div>
+                              </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a href="https://www.producthunt.com/upcoming/lazy" target="_blank">
+                                <span class="screen-reader-text">Product Hunt</span>
+                                <img class="icone" src="assets/images/ph.svg" alt="product hunt Lazy" width="18px" height="18px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/lazyappHQ" target="_blank">
+                                <span class="screen-reader-text">Twitter</span>
+                                <img class="icone" src="assets/images/twitter.svg" alt="product hunt Lazy" width="18px" height="18px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="screen-reader-text">Linkedin</span>
+                                <img class="icone" src="assets/images/linkedin.svg" alt="product hunt Lazy" width="18px" height="18px">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2019 Lazy app</div>
+                </div>
+            </div>
+        </footer>
+    </div>

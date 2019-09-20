@@ -1,0 +1,41 @@
+.tutorial {
+
+    .section-paragraph {
+        margin-bottom: 32px;
+    }
+}
+
+
+.flex-tutorial {
+  display: flex;
+  @include media( '<medium' ) {
+    flex-wrap: wrap;
+  }
+}
+
+.flex-left-tutorial {
+      max-width: 650px;
+}
+
+.flex-right-tutorial {
+  @include media( '<medium' ) {
+    margin-top: 50px;
+  }
+}
+
+.flex-right-tutorial img {
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 3px!important;
+}
+
+@include media( '>medium' ) {
+
+    .tutorial {
+
+        .section-paragraph {
+            margin-bottom: 40px;
+            padding-left: 72px;
+            padding-right: 72px;
+        }
+    }
+}
