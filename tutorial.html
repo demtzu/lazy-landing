@@ -12,15 +12,15 @@ image: og-image.jpg
                       <div class="flex-tutorial">
                         <div class="flex-left-tutorial">
                           <div class="tutorial-header">
-                              <h2 class="section-title mt-0">Step 1: "If this"</h2>
+                              <h2 class="section-title mt-0"># Step 1 : 'If this'</h2>
                               <p class="section-paragraph" style="padding-left: 0px;">
-                                - Sign up for IFTTT if you haven't already.
+                                - Sign up for IFTTT if you haven't already
                               <br>- Create a new applet <a href="https://ifttt.com/create" target="_blank" style="text-decoration:underline;">here</a>
-                              <br>- Press on "+This" to pick the Trigger Service
-                              <br>- Type in "Webhooks" in the search box.
-                              <br>- Press on “receive a web request".
-                              <br>- Complete the trigger field by assigning a name for the “Event” (a connected device), Enter something that describes your action. Let's use <span class="cmdk">desk_light</span> for our example.
-                              <br>- Click "Create Trigger".
+                              <br>- Click on "+This" to pick the Trigger Service
+                              <br>- Type "Webhook" in the search box
+                              <br>- Click on “receive a web request"
+                              <br>- Enter the name of your Event (a connected device) in the trigger field. The name should describe your action. Let's use <span class="cmdk">desk_light</span> for our example
+                              <br>- Click on "Create Trigger"
                               </p>
                           </div>
                         </div>
@@ -36,14 +36,13 @@ image: og-image.jpg
                       <div class="flex-tutorial">
                         <div class="flex-left-tutorial">
                           <div class="tutorial-header">
-                              <h2 class="section-title mt-0">Step 2: "Then that"</h2>
+                              <h2 class="section-title mt-0"># Step 2 : 'Then that'</h2>
                               <p class="section-paragraph" style="padding-left: 0px;">
-                                Now we are going to choose action to our service.
-                                <br>- Click on "+That"
-                                <br>- Since our lamp is connected to our TP-Link smart plug, we want ”TP-Link Kasa” to be our service.
-                                <br>- Since our task is to turn on and off our lights, we click on “Toggle”, to be our choice of action for our service.
-                                <br>- We complete the action field by linking our “kasa” device, in this case, my lamp, and by pressing on the “Create action”.
-                                <br>You have now completed the steps to create an IFFFT webhook command for your Lazy App.
+                                <br>- Click on '+That'
+                                <br>- We'll select here 'TP-Link Kasa' for our service since our lamp is connected to our TP-Link smart plug
+                                <br>- Let's click on 'Toggle' for the action of our service. It means that our light will be able to turn on and off
+                                <br>- Complete the action field by linking the 'Kasa' device. In this case, we'll link our lamp. Then click on 'Create action'. 
+                                <br>You have now completed all the steps to create an IFFFT webhook command for your Lazy App.
                               </p>
                           </div>
                         </div>
@@ -59,13 +58,12 @@ image: og-image.jpg
                       <div class="flex-tutorial">
                         <div class="flex-left-tutorial">
                           <div class="tutorial-header">
-                              <h2 class="section-title mt-0">Step 3 : Grab your Webhook URL</h2>
+                              <h2 class="section-title mt-0"># Step 3 : Grab your Webhook URL</h2>
                               <p class="section-paragraph" style="padding-left: 0px;">
-                                - Go on <a href="https://ifttt.com/maker_webhooks" target="_blank" style="text-decoration:underline;">this page</a>
-                                <br>- Click on “documentation” on the top righthand corner.
-                                <br>- This will take you to the page to get the URL for your webhook.
-                                <br>- Type in your “event name” in the box. I typed in <span class="cmdk">desk_light</span> because that was the name of the event I created.
-                                <br>- Select the entire URL, copy it to your clipboard.
+                                - Go to <a href="https://ifttt.com/maker_webhooks" target="_blank" style="text-decoration:underline;">this page</a>
+                                <br>- Click on 'Documentation' in the top right-hand corner. This will take you to the page to get the URL for your webhook
+                                <br>- Type your 'Event name' in the brackets. We went for <span class="cmdk">desk_light</span> as it was the name of the event I created in # Step 1
+                                <br>- Select the entire URL, copy it to your clipboard
                               </p>
                           </div>
                         </div>
@@ -81,14 +79,13 @@ image: og-image.jpg
                       <div class="flex-tutorial">
                         <div class="flex-left-tutorial">
                           <div class="tutorial-header">
-                              <h2 class="section-title mt-0">Step 4 : Add the webhook to Lazy</h2>
+                              <h2 class="section-title mt-0"># Step 4 : Add the Webhook to Lazy and Create your Shortcut</h2>
                               <p class="section-paragraph" style="padding-left: 0px;">
-                              Now that you have your webhook URL, you can add it to Lazy in order to create your keyboard shortcut to use for future tasks.
-                              <br>- Open the Lazy settings.
-                              <br>- Click on the "+" button to add your new action.
-                              <br>- Assign an emoji and the name you want for this action.
-                              <br>- Paste the webhook URL in the URL box section.
-                              <br>- Assign a keyboard shortcut to the action.
+                              <br>- Open the Lazy settings
+                              <br>- Click on the '+' button to add your new action
+                              <br>- Assign an emoji as well as the name you want for this action
+                              <br>- Paste the webhook URL in the URL box
+                              <br>- Assign a keyboard shortcut to the action
                             </p>
                           </div>
                         </div>
@@ -104,11 +101,11 @@ image: og-image.jpg
                       <div class="flex-tutorial">
                         <div class="flex-left-tutorial">
                           <div class="tutorial-header">
-                              <h2 class="section-title mt-0">Step 5 : Use your Lazy Shortcut</h2>
+                              <h2 class="section-title mt-0"># Step 5 : Use your Lazy Shortcut</h2>
                               <p class="section-paragraph" style="padding-left: 0px;">
                               You are now ready to use your new Lazy keyboard shortcut generated by an IFFFT webhook.
                               <br>- Simply hit your shortcut on your keyboard. And voila! You’ve just fired your new Lazy command to your connected device
-                              <br>- Press <span class="cmdk">⌥ + ⌘ + K</span> if you forget a shortcut to launch an action by just typing it's name and press enter.
+                              <br>- Alternatively if you forgot your shortcut, press <span class="cmdk">⌥ + ⌘ + K</span> and type the name of the action then press enter to launch
                             </p>
                           </div>
                         </div>
@@ -124,8 +121,8 @@ image: og-image.jpg
                       <div class="flex-tutorial">
                         <div class="flex-left-tutorial">
                           <div class="tutorial-header">
-                              <h2 class="section-title mt-0">Going Further...</h2>
-                              <p class="section-paragraph" style="padding-left: 0px;">Use the same webhook URL for other actions, instead of <span class="cmdk">desk_light</span>, just change the event name depending on the new applets that you create</p>
+                              <h2 class="section-title mt-0">Add More Actions</h2>
+                              <p class="section-paragraph" style="padding-left: 0px;">Repeat the same process. Use the same webhook URL for other actions. Replace <span class="cmdk">desk_light</span> by the event name you chose to describe the new applet you created.</p>
                           </div>
                         </div>
                         <div class="flex-right-tutorial is-revealing">
