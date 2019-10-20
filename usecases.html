@@ -1226,17 +1226,32 @@ image: og-image.jpg
                         <div class="flex-left">
                           <div class="newsletter-header">
                               <h2 class="section-title mt-0">Let the music play</h2>
-                              <p class="section-paragraph" style="padding-left: 0px;">Get notified about Lazy, updates and be the first get early access to the faster, simpler and smarter way of controling your home.</p>
+                              <p class="section-paragraph" style="padding-left: 0px;">Get your download link and join the faster, simpler and smarter way of controlling your environment.</p>
                           </div>
                           <div class="footer-form newsletter-form field field-grouped">
                               <div class="control control-expanded">
-                                <form action="https://api.producthunt.com/widgets/upcoming/v1/upcoming/lazy/forms" method="post" id="ph-email-form" name="ph-email-form" target="_blank">
+
+                                <!-- ph form -->
+                                <!-- <form action="https://api.producthunt.com/widgets/upcoming/v1/upcoming/lazy/forms" method="post" id="ph-email-form" name="ph-email-form" target="_blank">
                                 <input class="input" type="email" name="email" placeholder="Your best email&hellip;">
                               </div>
                               <div class="control">
-                                <input type="submit" value="Early access" class="button button-primary button-block button-shadow" name="subscribe" id="ph-subscribe-button" />
+                                <input type="submit" value="GET EARLY ACCESS" class="button button-primary button-block button-shadow" name="subscribe" id="ph-subscribe-button" />
                               </div>
+                                </form> -->
+
+                                <!-- simpleform -->
+                                <form action="https://getsimpleform.com/messages?form_api_token=8345ce895534b6c5a917f8d2111c9bc4" method="post">
+                                  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                                  <input type='hidden' name='redirect_to' value='https://www.lazy-app.com/thankyou.html' />
+                                  <!-- all your input fields here.... -->
+                                  <input type='text' name='email' class="input" placeholder="Your best email&hellip;" />
+                                  </div>
+                                  <div class="control">
+                                    <input type='submit' value="GET DOWNLOAD LINK" class="button button-primary button-block button-shadow" />
+                                  </div>
                                 </form>
+
                           </div>
                         </div>
                         <div class="flex-right is-revealing">
