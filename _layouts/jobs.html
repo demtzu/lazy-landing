@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.image }}">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% include hotjar.html %}
+    {% endif %}
+    {% seo %}
+  </head>
+  <div class="body-wrap-job boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                              <ul>
+                                <li class="logo">
+                                  <a href="/"><img src="/assets/images/lazy-logo-simple.svg" alt="Lazy Logo" width="50px" height="50px"></a>
+                                </li>
+                                <li class="txt">
+                                  <a href="/"><img src="/assets/images/lazy-txt.svg" alt="Lazy Texte" width="50px"></a>
+                                </li>
+                              </ul>
+                        </h1>
+                    </div>
+                    <ul class="header-links list-reset m-0">
+                        <li>
+                            <a href="/#why">What You’ll Do</a>
+                        </li>
+                        <li>
+                            <a href="/#how">Sounds Like You?</a>
+                        </li>
+                        <li>
+                            <a href="/#usecase">What To Expect</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+  <body class="is-boxed-job has-animations">
+    {{ content }}
+
+    <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner has-top-divider">
+                    <div class="brand footer-brand">
+                        <img src="/assets/images/lazy-logo-simple.svg" alt="Lazy Logo" width="50px" height="50px" style="cursor: crosshair;">
+                        <br>
+
+
+                    </div>
+
+                    <ul class="footer-links list-reset">
+                        <li class="link-footer">
+                            <a style="display:block" href="mailto:ahmed@lazy-app.com,paolo@lazy-app.com?subject=Question about Job Desc - Senior Full Stack Engineer">
+                              <div class="link-footer">
+                                <div class="link-footer-text"><p style="text-decoration: none; margin-bottom: 0px;">&nbsp;&nbsp;Any questions? please contact us&nbsp;&nbsp;</p></div>
+                              </div>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a style="display:block" href="mailto:ahmed@lazy-app.com,paolo@lazy-app.com?subject=Apply for Senior Full Stack Engineer position">
+                              <div class="link-footer">
+                                <div class="link-footer-text"><p style="text-decoration: none; margin-bottom: 0px;">&nbsp;&nbsp;Apply to this role&nbsp;&nbsp;</p></div>
+                                <div class="link-footer-explore"><img src="assets/images/chevron-right.svg" alt="explore"></div>
+                              </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a href="https://www.producthunt.com/posts/lazy" target="_blank">
+                                <span class="screen-reader-text">Product Hunt</span>
+                                <img class="icone" src="assets/images/ph.svg" alt="product hunt Lazy" width="18px" height="18px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/lazyappHQ" target="_blank">
+                                <span class="screen-reader-text">Twitter</span>
+                                <img class="icone" src="assets/images/twitter.svg" alt="product hunt Lazy" width="18px" height="18px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/lazy-app" target="_blank">
+                                <span class="screen-reader-text">Linkedin</span>
+                                <img class="icone" src="assets/images/linkedin.svg" alt="product hunt Lazy" width="18px" height="18px">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2020 Lazy app</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+        <script src="assets/js/main.min.js"></script>
+
+        <!-- intercom -->
+        <!-- <script>
+
+      window.intercomSettings = {
+        app_id: "vo4b1g83"
+      };
+    </script>
+
+    <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/vo4b1g83';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script> -->
+  </body>
+</html>

@@ -53,6 +53,28 @@
   }
 }
 
+.media-canvas2-job {
+  position: relative;
+
+  svg {
+    position: relative; /* To display the canvas above the illustration */
+    width: 100%;
+    height: auto;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 573px;
+    bottom: -136px;
+    right: -94px;
+    background-image: url(/assets/images/abstract.svg);
+    background-repeat: no-repeat;
+    background-size: 600px 450px;
+  }
+}
+
 .media-control {
 	position: absolute;
 	top: calc(50% - 24px);
