@@ -242,6 +242,11 @@
 	margin: 56px;
 }
 
+.mrl-50 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
 .mt-56 {
 	margin-top: 56px;
 }
@@ -467,4 +472,14 @@
 			visibility: hidden;
 		}
 	}
+}
+
+// li list
+
+li.lili {
+   margin:0 50px 10px 50px;
+}
+
+li.lili2 {
+   margin:0 50px 10px 80px;
 }
