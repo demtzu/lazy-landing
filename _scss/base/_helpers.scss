@@ -245,6 +245,10 @@
 .mrl-50 {
   margin-right: 50px;
   margin-left: 50px;
+  @include media( '<medium' ) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
 }
 
 .mt-56 {
@@ -478,8 +482,14 @@
 
 li.lili {
    margin:0 50px 10px 50px;
+   @include media( '<medium' ) {
+      margin:0 0px 10px 0px;
+    }
 }
 
 li.lili2 {
    margin:0 50px 10px 80px;
+   @include media( '<medium' ) {
+      margin:0 0px 10px 20px;
+    }
 }
